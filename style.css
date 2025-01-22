@@ -1,0 +1,76 @@
+/* Genel Ayarlar */
+body {
+    margin: 0;
+    background-color: black; /* Arka plan rengi siyah */
+    color: white; /* Yazı rengi beyaz */
+    font-family: 'DS-Digital', sans-serif; /* DS-Digital fontu */
+}
+
+/* Üst Menü */
+.header {
+    height: 50px; /* Üst menü yüksekliği */
+    background-color: rgba(255, 255, 255, 0.1); /* Açık ton siyah */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.762); /* Gölgeli efekt */
+    display: flex; /* Flexbox kullanarak içeriği hizalama */
+    align-items: center; /* Dikey ortalama */
+    justify-content: center; /* Yatay ortalama */
+    position: relative; /* Konumlandırma için gerekli */
+}
+
+/* Select Kutusu */
+.cube-select {
+    background-color: rgba(255, 255, 255, 0.1); /* Üst menü ile aynı arka plan rengi */
+    border: none; /* Kenar çizgisi yok */
+    color: white; /* Yazı rengi beyaz */
+    padding: 0; /* İç boşluk kaldırıldı */
+    height: 25px; /* Yükseklik ayarı */
+    width: 50px; /* Genişlik ayarı */
+    appearance: none; /* Varsayılan stil kaldırılır */
+    border-radius: 5px; /* Kenar yuvarlama */
+    margin: 0 20px; /* Yana 20px boşluk */
+    text-align: center; /* Metni ortala */
+}
+
+/* Açılır Menü Seçenekleri */
+.cube-select option {
+    background-color: rgba(0, 0, 0, 0.762); /* Açılır menü arka plan rengi */
+    color: white; /* Yazı rengi beyaz */
+}
+
+/* İçerik Bölümü */
+.content {
+    display: flex; /* Flexbox kullanarak içeriği hizalama */
+    flex-direction: column; /* Dikey yönde hizalama */
+    align-items: center; /* Yatay ortalama */
+    justify-content: center; /* Dikey ortalama */
+    height: calc(100vh - 50px); /* Yükseklik, üst menüyü hariç tutar */
+}
+
+/* Başlık */
+.title {
+    margin: 20px 0; /* Üst ve alt boşluk */
+    font-size: 24px; /* Başlık boyutu */
+}
+
+/* Oluştur Butonu */
+.create-button {
+    background-color: white; /* Buton arka plan rengi beyaz */
+    color: black; /* Yazı rengi siyah */
+    border: none; /* Kenar çizgisi yok */
+    padding: 10px 20px; /* İç boşluk */
+    cursor: pointer; /* İmleç değişimi */
+    font-size: 18px; /* Buton yazı boyutu */
+    transition: background-color 0.3s; /* Geçiş efekti */
+}
+
+/* Buton Hover Etkisi */
+.create-button:hover {
+    background-color: rgba(255, 255, 255, 0.8); /* Hover etkisi */
+}
+
+/* Scramble Görüntüsü */
+.scramble-display {
+    margin-top: 20px;
+    font-size: 18px; /* Yazı boyutu */
+    text-align: center; /* Ortala */
+}
