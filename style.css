@@ -1,16 +1,16 @@
 /* Genel Ayarlar */
 body {
     margin: 0;
-    background-color: black; /* Arka plan rengi siyah */
-    color: white; /* Yazı rengi beyaz */
+    background-color: #ffffff; /* Arka plan rengi siyah */
+    color: #000000; /* Yazı rengi beyaz */
     font-family: 'DS-Digital', sans-serif; /* DS-Digital fontu */
 }
 
 /* Üst Menü */
 .header {
     height: 50px; /* Üst menü yüksekliği */
-    background-color: rgba(255, 255, 255, 0.1); /* Açık ton siyah */
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.762); /* Gölgeli efekt */
+    background-color: #1791C8; /* Açık ton siyah */
+    box-shadow: 0px 2px 5px #3b3b3b; /* Gölgeli efekt */
     display: flex; /* Flexbox kullanarak içeriği hizalama */
     align-items: center; /* Dikey ortalama */
     justify-content: center; /* Yatay ortalama */
@@ -19,9 +19,9 @@ body {
 
 /* Select Kutusu */
 .cube-select {
-    background-color: rgba(255, 255, 255, 0.1); /* Üst menü ile aynı arka plan rengi */
+    background-color: #127bab; /* Ü#1791C8st menü ile aynı arka plan rengi */
     border: none; /* Kenar çizgisi yok */
-    color: white; /* Yazı rengi beyaz */
+    color: #ffffff; /* Yazı rengi beyaz */
     padding: 0; /* İç boşluk kaldırıldı */
     height: 25px; /* Yükseklik ayarı */
     width: 50px; /* Genişlik ayarı */
@@ -33,8 +33,8 @@ body {
 
 /* Açılır Menü Seçenekleri */
 .cube-select option {
-    background-color: rgba(0, 0, 0, 0.762); /* Açılır menü arka plan rengi */
-    color: white; /* Yazı rengi beyaz */
+    background-color: #ffffff; /* Açılır menü arka plan rengi */
+    color: #1791C8; /* Yazı rengi beyaz */
 }
 
 /* İçerik Bölümü */
@@ -54,9 +54,9 @@ body {
 
 /* Oluştur Butonu */
 .create-button {
-    background-color: white; /* Buton arka plan rengi beyaz */
-    color: black; /* Yazı rengi siyah */
-    border: none; /* Kenar çizgisi yok */
+    background-color: #1791C8; /* Buton arka plan rengi siyah */
+    color: #ffffff; /* Yazı rengi beyaz */
+    border: true; /* Kenar çizgisi yok */
     padding: 10px 20px; /* İç boşluk */
     cursor: pointer; /* İmleç değişimi */
     font-size: 18px; /* Buton yazı boyutu */
@@ -65,7 +65,7 @@ body {
 
 /* Buton Hover Etkisi */
 .create-button:hover {
-    background-color: rgba(255, 255, 255, 0.8); /* Hover etkisi */
+    background-color: #127bab; /* Hover etkisi */
 }
 
 /* Scramble Görüntüsü */
