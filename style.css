@@ -1,15 +1,15 @@
 /* Genel Ayarlar */
 body {
     margin: 0;
-    background-color: #ffffff; /* Arka plan rengi siyah */
-    color: #000000; /* Yazı rengi beyaz */
+    background-color: #ffffff; /* Arka plan rengi beyaz */
+    color: #000000; /* Yazı rengi siyah */
     font-family: 'DS-Digital', sans-serif; /* DS-Digital fontu */
 }
 
 /* Üst Menü */
 .header {
     height: 50px; /* Üst menü yüksekliği */
-    background-color: #1791C8; /* Açık ton siyah */
+    background-color: #1791C8; /* Açık ton mavi */
     box-shadow: 0px 2px 5px #3b3b3b; /* Gölgeli efekt */
     display: flex; /* Flexbox kullanarak içeriği hizalama */
     align-items: center; /* Dikey ortalama */
@@ -19,7 +19,7 @@ body {
 
 /* Select Kutusu */
 .cube-select {
-    background-color: #127bab; /* Ü#1791C8st menü ile aynı arka plan rengi */
+    background-color: #127bab; /* Üst menü ile aynı arka plan rengi */
     border: none; /* Kenar çizgisi yok */
     color: #ffffff; /* Yazı rengi beyaz */
     padding: 0; /* İç boşluk kaldırıldı */
@@ -54,23 +54,28 @@ body {
 
 /* Oluştur Butonu */
 .create-button {
-    background-color: #1791C8; /* Buton arka plan rengi siyah */
+    background-color: #1791C8; /* Buton arka plan rengi */
     color: #ffffff; /* Yazı rengi beyaz */
-    border: true; /* Kenar çizgisi yok */
+    border: none; /* Kenar çizgisi yok */
     padding: 10px 20px; /* İç boşluk */
-    cursor: pointer; /* İmleç değişimi */
-    font-size: 18px; /* Buton yazı boyutu */
-    transition: background-color 0.3s; /* Geçiş efekti */
+    border-radius: 5px; /* Kenar yuvarlama */
+    cursor: pointer; /* İmleç değişikliği */
+    font-size: 16px; /* Yazı boyutu */
 }
 
-/* Buton Hover Etkisi */
-.create-button:hover {
-    background-color: #127bab; /* Hover etkisi */
-}
-
-/* Scramble Görüntüsü */
+/* Scramble Görüntüleme */
 .scramble-display {
-    margin-top: 20px;
-    font-size: 18px; /* Yazı boyutu */
-    text-align: center; /* Ortala */
+    font-size: 20px; /* Yazı boyutu */
+    margin: 20px 0; /* Üst ve alt boşluk */
+}
+
+/* Kopyala Butonu */
+.copy-button {
+    background-color: #1791C8; /* Buton arka plan rengi */
+    color: #ffffff; /* Yazı rengi beyaz */
+    border: none; /* Kenar çizgisi yok */
+    padding: 10px 20px; /* İç boşluk */
+    border-radius: 5px; /* Kenar yuvarlama */
+    cursor: pointer; /* İmleç değişikliği */
+    font-size: 16px; /* Yazı boyutu */
 }
